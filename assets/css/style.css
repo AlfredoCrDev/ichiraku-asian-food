@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  margin: 10px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar__img {
+  width: 250px;
+  /* margin-left: 3rem; */
+}
+
+.navbar__list {
+  list-style: none;
+  /* margin-right: 4rem;   */
+  font-size: 2rem;
+  
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar__list a {
+  text-decoration: none;
+}
