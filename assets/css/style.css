@@ -18,6 +18,7 @@
   font-family: njnaruto, sans-serif, Geneva, Tahoma ;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .navbar__img {
@@ -32,7 +33,7 @@
   
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .navbar__list a {
