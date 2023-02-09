@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&display=swap');
 @font-face {
   font-family: njnaruto;
-  src: url(../fonts/njnaruto.ttf);
+  src: url(../fonts/LEMONMILK-Regular.otf);
   font-style: normal;
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
@@ -36,6 +36,7 @@
 }
 
 .navbar__list a {
+  color: #C77738;
   text-decoration: none;
 }
 
@@ -51,6 +52,8 @@
 
 .especiality h2 {
   font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+  color: #C77738;
+
 }
 
 .especiality__div {
@@ -89,7 +92,7 @@
 }
 
 .foot__contarrss h4 {
-  color: white;
+  color: #DD9A3A;
   text-align: center;
 }
 
@@ -118,6 +121,74 @@
   width: 60px;
 }
 .foot__direction h4 {
-  color: white;
+  color: #DD9A3A;
   text-align: center;
+}
+
+.us {
+  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+}
+
+.us__title {
+  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+  font-size: 1.5rem;
+  color: #DD9A3A;
+  padding: 20px 0 20px 100px;
+
+
+  border-top: 2px solid #C77738;
+  border-bottom: 2px solid #C77738;
+  margin-bottom: 20px;
+}
+
+.us__div {
+  width: 100%;
+  padding: 30px 0 30px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.us__div img {
+  width: 400px;
+}
+
+.us__div p {
+  width: 400px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.menu img {
+  width: 300px;
+}
+
+.cliente__principal {
+  display: flex;
+  justify-content: center;
+}
+
+.cliente__principal img {
+  width: 400px;
+}
+
+.clientes__galeria {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.clientes__galeria img{
+  width: 150px;
+  padding: 60px 0 30px 0
 }
