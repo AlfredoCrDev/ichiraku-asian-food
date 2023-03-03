@@ -22,6 +22,11 @@
   flex-wrap: wrap;
 }
 
+.navbar-collapse {
+  display: flex;
+  text-align: right;
+}
+
 .navbar__img {
   width: 250px;
   /* margin-left: 3rem; */
@@ -40,10 +45,12 @@
 
 .navbar__list a {
   color: #C77738;
+  text-decoration: none;
 }
 
 .imagencarrusel {
   width: 100%;
+  /* height: 100vh; */
 }
 
 .especialitytitle {
