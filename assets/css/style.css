@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&display=swap');
+
 @font-face {
   font-family: njnaruto;
   src: url(../fonts/LEMONMILK-Regular.otf);
@@ -7,7 +8,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,8 +23,8 @@
   width: 250px;
 }
 
-.navbar-nav a{
-  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+.navbar-nav a {
+  font-family: njnaruto, sans-serif, Geneva, Tahoma;
   font-size: 1.3rem;
   color: #C77738;
   text-decoration: none;
@@ -44,22 +45,23 @@
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.500);
   border-radius: 20px;
-  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+  font-family: njnaruto, sans-serif, Geneva, Tahoma;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-color: rgba(0, 0, 0, 0.900);
 
 }
 
 .especialitytitle {
-  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+  font-family: njnaruto, sans-serif, Geneva, Tahoma;
   color: #C77738;
   text-align: center;
   padding: 30px;
 }
 
-.speciality {  
+.speciality {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
@@ -104,7 +106,7 @@
 }
 
 .foot {
-  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+  font-family: njnaruto, sans-serif, Geneva, Tahoma;
   width: 100%;
   background-color: black;
 
@@ -125,7 +127,8 @@
   justify-content: space-between;
 } */
 
-.foot__links, .foot__address a{
+.foot__links,
+.foot__address a {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -171,10 +174,15 @@
 .foot__address img {
   width: 60px;
 }
+
 .foot__address h4 {
   color: #DD9A3A;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.foot__address a {
+  text-align: center;
 }
 
 .us {
@@ -183,7 +191,7 @@
 }
 
 .us__title {
-  font-family: njnaruto, sans-serif, Geneva, Tahoma ;
+  font-family: njnaruto, sans-serif, Geneva, Tahoma;
   font-size: 1.5rem;
   color: #DD9A3A;
   padding: 20px 0 20px 100px;
@@ -195,7 +203,6 @@
 }
 
 .us__div {
-  /* width: 100%; */
   padding: 30px 0 30px 0;
 
   display: flex;
@@ -232,7 +239,7 @@
   width: 100%;
 }
 
-.menu__card p{
+.menu__card p {
   font-size: 1rem;
 }
 
@@ -245,28 +252,14 @@
   width: 400px;
 }
 
-/* .clientes__galeria {
-  width: 100%;
-
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-evenly;
-} */
-
 .clientes__galeria {
-  
+
   display: flex;
   width: 100%;
   height: 630px;
 }
 
-/* .clientes__galeria img{
-  width: 150px;
-  padding: 60px 0 30px 0
-} */
-
-.clientes__galeria img{
+.clientes__galeria img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
@@ -282,24 +275,24 @@
 }
 
 .contact {
-  font-family: Raleway, sans-serif, Geneva, Tahoma ;
+  font-family: Raleway, sans-serif, Geneva, Tahoma;
 
   margin: 20px;
-  
+
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .formcontact {
-  background-color:#DD9A3A;
+  background-color: #DD9A3A;
   padding: 20px;
   border-radius: 10px;
 
 
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .formcontact__left {
@@ -310,9 +303,9 @@
 }
 
 .formcontact__left input {
-  width: 300px;
+  /* width: 300px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 10px; */
   border: 2px solid;
   border-color: #DD9A3A;
 }
@@ -330,12 +323,12 @@
   align-items: center;
 }
 
-.formcontact__right--phone p{
+.formcontact__right--phone p {
   padding: 20px;
   font-size: 1.5rem;
 }
 
-.formcontact__right--phone img{
+.formcontact__right--phone img {
   width: 50px;
   margin: 10px;
 }
@@ -345,80 +338,92 @@
   height: 300px;
 }
 
+.btn {
+  background-color: #C77738;
+}
+
 /* ANIMACIONES */
 
 .tracking-in-expand-fwd {
-	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @-webkit-keyframes tracking-in-expand-fwd {
   0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
-            transform: translateZ(-700px);
+    transform: translateZ(-700px);
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
+
 @keyframes tracking-in-expand-fwd {
   0% {
     letter-spacing: -0.5em;
     -webkit-transform: translateZ(-700px);
-            transform: translateZ(-700px);
+    transform: translateZ(-700px);
     opacity: 0;
   }
+
   40% {
     opacity: 0.6;
   }
+
   100% {
     -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
 
 .text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 @-webkit-keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
+
 @keyframes text-focus-in {
   0% {
     -webkit-filter: blur(12px);
-            filter: blur(12px);
+    filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     -webkit-filter: blur(0px);
-            filter: blur(0px);
+    filter: blur(0px);
     opacity: 1;
   }
 }
 
-
+/* FIN ANIMACIONES */
 
 @media screen and (max-width: 991px) {
-  .speciality {  
+  .speciality {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
     row-gap: 30px;
@@ -443,7 +448,7 @@
 }
 
 @media screen and (max-width: 576px) {
-  .speciality {  
+  .speciality {
     grid-template-columns: 1fr;
   }
 
@@ -457,7 +462,7 @@
     text-align: justify;
   }
 
-  p{
+  p {
     margin-bottom: 0 !important;
   }
 
@@ -493,7 +498,8 @@
     font-size: 1.1rem;
   }
 
-  .us__div img, .us__div p {
+  .us__div img,
+  .us__div p {
     width: 70%;
     font-size: .7rem;
     text-align: justify;
@@ -516,8 +522,12 @@
   }
 
   .clientes__galeria img:hover {
-
+    width: 200px;
+    filter: contrast(100%);
   }
-  
 
+  .formcontact__right--map iframe {
+    width: 160px;
+    height: 160px;
+  }
 }
