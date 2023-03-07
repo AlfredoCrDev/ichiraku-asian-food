@@ -1,112 +1,198 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Ichiraku Asian Food</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand navbar__img" href="#">
-            <img class="navbar__img" src="./assets/images/logo.png" alt="Logo ichiraku">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./menu.html">MENU</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./clientes.html">CLIENTES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">CONTACTO</a>
-              </li>
-            </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Ichiraku Asian Food</title>
+</head>
+
+<body>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand navbar__img" href="#">
+          <img class="navbar__img" src="./assets/images/logo.png" alt="Logo ichiraku" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./clientes.html">CLIENTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/images/carrusel (1).png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Somos Ichiraku Asian Food</h5>
+            <p>Restaurante tematico de Naruto.</p>
           </div>
         </div>
-      </nav>
-    </div>
-    <header class="navbar">
-      <img class="navbar__img" src="./assets/images/logo.png" alt="logo del restaurante" id="inicio" />
-      <ul class="navbar__list">
-        <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./nosotros.html">Nosotros</a></li>
-        <li><a href="./menu.html">Menu</a></li>
-        <li><a href="./clientes.html">Clientes</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
-      </ul>
-    </header>
-    <section>
-      <img class="imagencarrusel" src="./assets/images/carrusel.png" alt="">
-    </section>
-    <h2 class="especialitytitle">ESPECIALIDADES</h2>
-    <section class="especiality">
-      <div class="especiality__div" >
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatibus omnis culpa similique voluptas, sapiente cupiditate laborum ea sunt facilis porro fugiat quas fugit. Laborum eos explicabo facilis quo ipsam.</p>
-          <img src="./assets/images/ramen-cerdo.jpg" alt="">
+        <div class="carousel-item">
+          <img src="/assets/images/carrusel (2).png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Shuriken de Sushi</h5>
+            <p>
+              Combinación de 4 Rools especiales de la casa con adicional de
+              Ensalda Dinamita.
+            </p>
+          </div>
         </div>
-      <div class="especiality__div">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi vitae nesciunt laboriosam blanditiis, dolorum totam reiciendis unde corrupti fugiat debitis dicta illum dolor esse earum, harum eos! Doloremque, at?</p>
-          <img src="./assets/images/sushi-roll-camaron.jpg" alt="">      
+        <div class="carousel-item">
+          <img src="/assets/images/carrusel (3).png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ramen de Cerdo</h5>
+            <p>
+              Vegetales Salteados, caldo de pescado, nodles de trigo y huevo.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/images/carrusel (4).png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SUSHIBURGUER Marina</h5>
+            <p>Salmón, camarón, y kanikama.</p>
+          </div>
+        </div>
       </div>
-      <div class="especiality__div">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatibus omnis culpa similique voluptas, sapiente cupiditate laborum ea sunt facilis porro fugiat quas fugit. Laborum eos explicabo facilis quo ipsam.</p>
-        <img src="./assets/images/fritos-pescado.jpg" alt="">
-      </div>
-      <div class="especiality__div" >
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi vitae nesciunt laboriosam blanditiis, dolorum totam reiciendis unde corrupti fugiat debitis dicta illum dolor esse earum, harum eos! Doloremque, at?</p>
-        <img src="./assets/images/sushiburguer.jpg" alt="">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+
+    <section class="container">
+      <h2 class="especialitytitle">ESPECIALIDADES</h2>
+      <section class="speciality">
+        <div class="especiality__div">
+          <p class="speciality__phar">
+            <strong>Ramen de Cerdo</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+            voluptatibus omnis culpa similique voluptas, sapiente cupiditate
+            laborum ea sunt facilis porro fugiat quas fugit. Laborum eos
+            explicabo facilis quo ipsam.
+          </p>
+        </div>
+        <div class="especiality__div">
+          <img src="./assets/images/ramen-cerdo.jpg" class="speciality__img" alt="" />
+        </div>
+        <div class="especiality__div">
+          <p class="speciality__phar">
+            <strong>Roll de Camarón</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur excepturi vitae nesciunt laboriosam blanditiis,
+            dolorum totam reiciendis unde corrupti fugiat debitis dicta illum
+            dolor esse earum, harum eos! Doloremque, at?
+          </p>
+        </div>
+        <div class="especiality__div">
+          <img src="./assets/images/sushi-roll-camaron.jpg" class="speciality__img" alt="" />
+        </div>
+        <div class="especiality__div">
+          <p class="speciality__phar">
+            <strong>Frito de Pescado</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+            voluptatibus omnis culpa similique voluptas, sapiente cupiditate
+            laborum ea sunt facilis porro fugiat quas fugit. Laborum eos
+            explicabo facilis quo ipsam.
+          </p>
+        </div>
+        <div class="especiality__div">
+          <img src="./assets/images/fritos-pescado.jpg" class="speciality__img" alt="" />
+        </div>
+        <div class="especiality__div">
+          <p class="speciality__phar">
+            <strong>Sushiburguer</strong> ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur excepturi vitae nesciunt laboriosam blanditiis,
+            dolorum totam reiciendis unde corrupti fugiat debitis dicta illum
+            dolor esse earum, harum eos! Doloremque, at?
+          </p>
+        </div>
+        <div class="especiality__div">
+          <img src="./assets/images/sushiburguer.jpg" class="speciality__img" alt="" />
+        </div>
+      </section>
     </section>
-    <footer class="foot">
-      <div class="foot__logo ">
-        <a href="#inicio">
-          <img class="navbar__img" src="./assets/images/logo-sin-fondo.png" alt="logo del restaurante">
+  </main>
+
+  <footer class="foot">
+    <div class="foot__logo">
+      <a href="#inicio">
+        <img class="navbar__img" src="./assets/images/logo-sin-fondo.png" alt="logo del restaurante" />
+      </a>
+    </div>
+    <div class="foot__links">
+      <a href="#inicio">Inicio</a>
+      <a href="./nosotros.html">Nosotros</a>
+      <a href="./menu.html">Menú</a>
+      <a href="./clientes.html">Clientes</a>
+      <a href="./contacto.html">Contacto</a>
+    </div>
+    <div class="foot__contarrss">
+      <h4>Redes Sociales</h4>
+      <div class="foot__contarrss--img">
+        <a href="https://www.instagram.com/ichirakuasianfood/" target="_blank">
+          <img src="./assets/images/footer/instagram.png" alt="logo-instagram" />
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100077998059771" target="_blank">
+          <img src="./assets/images/footer/facebook.png" alt="logo-facebook" />
+        </a>
+        <a href="">
+          <img src="./assets/images/footer/whatsapp.png" alt="logo-whatsapp" />
         </a>
       </div>
-      <div class="foot__links">
-        <a href="#inicio">Inicio</a>
-        <a href="./nosotros.html">Nosotros</a>
-        <a href="./menu.html">Menú</a>
-        <a href="./clientes.html">Clientes</a>
-        <a href="./contacto.html">Contacto</a>
-      </div>
-      <div class="foot__contarrss">
-        <h4>Redes Sociales</h4>
-        <div class="foot__contarrss--img">
-          <a href="https://www.instagram.com/ichirakuasianfood/" target="_blank">
-            <img src="./assets/images/footer/instagram.png" alt="logo-instagram">
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100077998059771" target="_blank">
-            <img src="./assets/images/footer/facebook.png" alt="logo-facebook">
-          </a>
-          <a href="">
-            <img src="./assets/images/footer/whatsapp.png" alt="logo-whatsapp">
-          </a>
-        </div>
-      </div>
-      <div class="foot__direction">
-        <h4>Direccion</h4>
-        <img class="foot__contarrss--img" src="./assets/images/footer/mapa.png" alt="mapa">
-        <a href="https://goo.gl/maps/vBTvLDoznY9AaDBG9" target="_blank">Av. Sta. Rosa 1539, Santiago, Region Metropolitana</a>
-      </div>
-    </footer>
+    </div>
+    <div class="foot__direction">
+      <h4>Direccion</h4>
+      <img class="foot__contarrss--img" src="./assets/images/footer/mapa.png" alt="mapa" />
+      <a href="https://goo.gl/maps/vBTvLDoznY9AaDBG9" target="_blank">Av. Sta. Rosa 1539, Santiago, Region
+        Metropolitana</a>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
