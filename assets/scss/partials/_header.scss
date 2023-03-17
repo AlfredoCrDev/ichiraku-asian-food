@@ -1,0 +1,35 @@
+.navbar__img {
+  width: 250px;
+}
+
+.navbar-collapse {
+  text-align: center;
+
+  .navbar-nav {
+    color: $secondaryColor;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    .nav-item {
+
+      .nav-link {
+        font-family: njnaruto, sans-serif, Geneva, Tahoma;
+        font-size: 1.3rem;
+        color: $mainColor;
+        text-decoration: none;
+        transition: .5s;
+        &:hover {
+          font-size: 1.4rem;
+          color: $secondaryColor;
+        }
+        .nav-link.active {
+          color: $secondaryColor;
+          font-size: 1.4rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+  }
+}
+
