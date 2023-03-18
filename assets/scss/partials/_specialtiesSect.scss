@@ -1,0 +1,32 @@
+.container {
+
+  .especialitytitle {
+    font-family: njnaruto, sans-serif, Geneva, Tahoma;
+    color: $mainColor;
+    text-align: center;
+    padding: 30px;
+  }
+}
+
+.speciality {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-bottom: 40px;
+
+  .especiality__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .speciality__img {
+      width: 100%;
+    }
+
+    .speciality__phar {
+      width: 100%;
+      text-align: justify;
+    }
+  }
+}
