@@ -1,0 +1,19 @@
+.us {
+
+  .us__div {
+    width: 100%;
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    img {
+      width: 50%;
+    }
+
+    .us__div p {
+      width: 50%;
+    }
+  }
+}

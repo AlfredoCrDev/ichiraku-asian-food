@@ -1,7 +1,6 @@
 .container {
 
   .especialitytitle {
-    font-family: njnaruto, sans-serif, Geneva, Tahoma;
     color: $mainColor;
     text-align: center;
     padding: 30px;
@@ -17,6 +16,7 @@
 
   .especiality__div {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 

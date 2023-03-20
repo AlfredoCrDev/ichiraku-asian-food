@@ -1,9 +1,9 @@
 %linksFooter {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: .8rem;
-    font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: .8rem;
+  font-weight: bold;
 }
 
 %titleFoot {
@@ -16,7 +16,7 @@
 .foot {
   width: 100%;
   background-color: black;
-  
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
@@ -32,10 +32,11 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
-    
+
     h4 {
       @extend %titleFoot;
     }
+
     .foot__contarrss--img {
       display: flex;
       flex-wrap: wrap;
@@ -43,13 +44,14 @@
 
       img {
         width: 40px;
-    
+
         display: flex;
         flex-direction: row;
         gap: 50px;
       }
     }
   }
+
   .foot__address {
     display: flex;
     flex-direction: column;
@@ -60,10 +62,11 @@
     h4 {
       @extend %titleFoot;
     }
+
     img {
       width: 50px;
     }
-      
+
     a {
       @extend %linksFooter;
       text-align: center;

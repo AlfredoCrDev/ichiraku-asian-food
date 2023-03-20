@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+
+  .card {
+
+    img {
+      width: 100%;
+    }
+
+    .card-body {
+
+      .card-title {
+        font-weight: bold;
+      }
+
+      .card-text {
+        font-size: 1rem;
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

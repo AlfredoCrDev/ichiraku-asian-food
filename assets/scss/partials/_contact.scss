@@ -1,0 +1,64 @@
+.contact {
+  margin: 20px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .formcontact {
+    background-color: $secondaryColor;
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .formcontact__left {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      input {
+        border: 2px solid;
+        border-color: $secondaryColor;
+      }
+
+      textarea {
+        border-radius: 10px;
+        border: 2px solid;
+        border-color: $secondaryColor;
+      }
+    }
+  }
+
+  .formcontact__right {
+
+    .formcontact__right--phone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      p {
+        padding: 5px;
+        font-size: 1.5rem;
+      }
+
+      img {
+        width: 50px;
+        margin: 5px;
+      }
+    }
+
+    .formcontact__right--map iframe {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}
+
+
+.btn {
+  background-color: $mainColor;
+}

@@ -158,7 +158,7 @@
   text-align: center;
 } */
 
-.us {
+/* .us {
   font-family: 'Raleway', sans-serif;
   font-size: 1.3rem;
 }
@@ -190,9 +190,9 @@
 
 .us__div p {
   width: 400px;
-}
+} */
 
-.card-title {
+/* .card-title {
   font-weight: bold;
 }
 
@@ -214,9 +214,9 @@
 
 .menu__card p {
   font-size: 1rem;
-}
+} */
 
-.cliente__principal {
+/* .cliente__principal {
   display: flex;
   justify-content: center;
 }
@@ -245,9 +245,9 @@
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
-}
+} */
 
-.contact {
+/* .contact {
   font-family: Raleway, sans-serif, Geneva, Tahoma;
 
   margin: 20px;
@@ -276,9 +276,6 @@
 }
 
 .formcontact__left input {
-  /* width: 300px;
-  height: 30px;
-  border-radius: 10px; */
   border: 2px solid;
   border-color: #DD9A3A;
 }
@@ -313,7 +310,7 @@
 
 .btn {
   background-color: #C77738;
-}
+} */
 
 /* ANIMACIONES */
 
