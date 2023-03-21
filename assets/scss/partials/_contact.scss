@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 100%;
+  // width: 90%;
 
   .formcontact {
     background-color: $secondaryColor;
@@ -52,8 +52,8 @@
     }
 
     .formcontact__right--map iframe {
-      width: 400px;
-      height: 400px;
+      width: 300px;
+      height: 300px;
     }
   }
 }

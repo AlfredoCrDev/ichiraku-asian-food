@@ -19,14 +19,26 @@
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr .3fr;
+  grid-template-areas: 
+    "a1 a2 a3 a4"
+    "a5 a5 a5 a5";
   justify-items: center;
   align-items: center;
 
-  .foot__links a {
-    @extend %linksFooter
+  .foot__logo {
+    grid-area: a1;
+  }
+  .foot__links {
+    grid-area: a2;
+    margin: 10px;
+    a {
+      @extend %linksFooter
+    }
   }
 
   .foot__contarrss {
+    grid-area: a3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,11 +65,12 @@
   }
 
   .foot__address {
+    grid-area: a4;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin: 20px;
+    margin: 10px;
 
     h4 {
       @extend %titleFoot;
@@ -70,6 +83,19 @@
     a {
       @extend %linksFooter;
       text-align: center;
+    }
+  }
+  .foot__dev {
+    grid-area: a5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    p {
+      margin-bottom: 0;
+      color: whitesmoke;
+      text-align: center;
+      font-size: .9rem;
     }
   }
 }
